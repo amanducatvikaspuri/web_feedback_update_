@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["web-feedback-update.onrender.com"]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-feedback-update.onrender.com",
+]
 # Application definition
 
 INSTALLED_APPS = [
